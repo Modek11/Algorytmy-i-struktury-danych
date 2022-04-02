@@ -11,20 +11,15 @@ namespace Lab_2 //Qubic Function
             double u, v, phi;
             string x1, x2, x3;
 
-            /*Console.WriteLine("Podaj a:");
+            Console.WriteLine("Podaj a:");
             a = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Podaj b:");
             b = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Podaj c:");
             c = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Podaj d:");
-            d = Int32.Parse(Console.ReadLine());*/
+            d = Int32.Parse(Console.ReadLine());
 
-
-            a = -5;
-            b = 3;
-            c = -10;
-            d = 5;
 
             w = -b / (3 * a);
             p = ((3 * a * Math.Pow(w, 2)) + (2 * b * w) + c) / a;
