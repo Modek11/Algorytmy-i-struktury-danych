@@ -86,7 +86,7 @@ namespace Lab_2 //Qubic Function
                     p = ((3 * a * Math.Pow(w, 2)) + (2 * b * w) + c) / a;
                     q = ((a * Math.Pow(w, 3)) + (b * Math.Pow(w, 2)) + (c * w) + d) / a;
                     delta = (Math.Pow(q, 2) / 4) + (Math.Pow(p, 3) / 27);
-                    Console.WriteLine("dupa");
+                    Console.WriteLine("");
                 } while (delta == 0);
 
                 Console.WriteLine($"{a},{b},{c},{d}");
